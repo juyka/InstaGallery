@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		37A4601E1D3252C100555278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4601D1D3252C100555278 /* AppDelegate.swift */; };
-		37A460201D3252C100555278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4601F1D3252C100555278 /* ViewController.swift */; };
+		37A460201D3252C100555278 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4601F1D3252C100555278 /* SearchViewController.swift */; };
 		37A460231D3252C100555278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A460211D3252C100555278 /* Main.storyboard */; };
 		37A460251D3252C100555278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A460241D3252C100555278 /* Assets.xcassets */; };
+		37A4602D1D32573600555278 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4602C1D32573600555278 /* SearchViewModel.swift */; };
+		37A460301D325A6A00555278 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4602F1D325A6A00555278 /* MediaItem.swift */; };
+		37A460381D3276E400555278 /* InstagramService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A460371D3276E400555278 /* InstagramService.swift */; };
+		37A4603A1D3277C700555278 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A460391D3277C700555278 /* User.swift */; };
+		37A4603D1D32789D00555278 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4603C1D32789D00555278 /* RequestManager.swift */; };
+		37A4603F1D3295BC00555278 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4603E1D3295BC00555278 /* GalleryViewController.swift */; };
+		37A460441D32978D00555278 /* MediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A460431D32978D00555278 /* MediaCollectionViewCell.swift */; };
+		37A460461D3299C900555278 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A460451D3299C900555278 /* GalleryViewModel.swift */; };
+		37A4606B1D329F8D00555278 /* UIImageView+ImageLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4606A1D329F8D00555278 /* UIImageView+ImageLoading.swift */; };
+		37A4606D1D32B55700555278 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4606C1D32B55700555278 /* JSON.swift */; };
+		37A4606F1D32BE2100555278 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4606E1D32BE2100555278 /* Utilites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37A4601A1D3252C000555278 /* InstaGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A4601D1D3252C100555278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37A4601F1D3252C100555278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37A4601F1D3252C100555278 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		37A460221D3252C100555278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37A460241D3252C100555278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A460261D3252C100555278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A4602C1D32573600555278 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		37A4602F1D325A6A00555278 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		37A460371D3276E400555278 /* InstagramService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramService.swift; sourceTree = "<group>"; };
+		37A460391D3277C700555278 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		37A4603C1D32789D00555278 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		37A4603E1D3295BC00555278 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		37A460431D32978D00555278 /* MediaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		37A460451D3299C900555278 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		37A4606A1D329F8D00555278 /* UIImageView+ImageLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageLoading.swift"; sourceTree = "<group>"; };
+		37A4606C1D32B55700555278 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		37A4606E1D32BE2100555278 /* Utilites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		37A460701D32CC1600555278 /* InstaGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,28 +59,79 @@
 			isa = PBXGroup;
 			children = (
 				37A4601C1D3252C100555278 /* InstaGallery */,
-				37A4601B1D3252C000555278 /* Products */,
+				37A460701D32CC1600555278 /* InstaGallery.app */,
 			);
-			sourceTree = "<group>";
-		};
-		37A4601B1D3252C000555278 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37A4601A1D3252C000555278 /* InstaGallery.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		37A4601C1D3252C100555278 /* InstaGallery */ = {
 			isa = PBXGroup;
 			children = (
+				37A460691D329F5200555278 /* Extensions */,
+				37A460411D32977F00555278 /* Gallery */,
+				37A4603B1D32788800555278 /* RequestManager */,
+				37A460361D3276D500555278 /* InstagramService */,
+				37A4602E1D325A3A00555278 /* Models */,
 				37A4601D1D3252C100555278 /* AppDelegate.swift */,
-				37A4601F1D3252C100555278 /* ViewController.swift */,
+				37A4601F1D3252C100555278 /* SearchViewController.swift */,
+				37A4602C1D32573600555278 /* SearchViewModel.swift */,
 				37A460211D3252C100555278 /* Main.storyboard */,
 				37A460241D3252C100555278 /* Assets.xcassets */,
 				37A460261D3252C100555278 /* Info.plist */,
+				37A4603E1D3295BC00555278 /* GalleryViewController.swift */,
+				37A4606C1D32B55700555278 /* JSON.swift */,
+				37A4606E1D32BE2100555278 /* Utilites.swift */,
 			);
 			path = InstaGallery;
+			sourceTree = "<group>";
+		};
+		37A4602E1D325A3A00555278 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37A4602F1D325A6A00555278 /* MediaItem.swift */,
+				37A460391D3277C700555278 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37A460361D3276D500555278 /* InstagramService */ = {
+			isa = PBXGroup;
+			children = (
+				37A460371D3276E400555278 /* InstagramService.swift */,
+			);
+			path = InstagramService;
+			sourceTree = "<group>";
+		};
+		37A4603B1D32788800555278 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				37A4603C1D32789D00555278 /* RequestManager.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		37A460411D32977F00555278 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				37A460421D32977F00555278 /* MediaCollectionViewCell */,
+				37A460451D3299C900555278 /* GalleryViewModel.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		37A460421D32977F00555278 /* MediaCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				37A460431D32978D00555278 /* MediaCollectionViewCell.swift */,
+			);
+			path = MediaCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		37A460691D329F5200555278 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37A4606A1D329F8D00555278 /* UIImageView+ImageLoading.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,7 +151,7 @@
 			);
 			name = InstaGallery;
 			productName = InstaGallery;
-			productReference = 37A4601A1D3252C000555278 /* InstaGallery.app */;
+			productReference = 37A460701D32CC1600555278 /* InstaGallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +166,7 @@
 				TargetAttributes = {
 					37A460191D3252C000555278 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UM246WFXVS;
 					};
 				};
 			};
@@ -105,7 +179,7 @@
 				Base,
 			);
 			mainGroup = 37A460111D3252C000555278;
-			productRefGroup = 37A4601B1D3252C000555278 /* Products */;
+			productRefGroup = 37A460111D3252C000555278;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -131,8 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A460201D3252C100555278 /* ViewController.swift in Sources */,
+				37A4602D1D32573600555278 /* SearchViewModel.swift in Sources */,
+				37A460461D3299C900555278 /* GalleryViewModel.swift in Sources */,
+				37A460441D32978D00555278 /* MediaCollectionViewCell.swift in Sources */,
+				37A4606D1D32B55700555278 /* JSON.swift in Sources */,
+				37A460381D3276E400555278 /* InstagramService.swift in Sources */,
+				37A4603A1D3277C700555278 /* User.swift in Sources */,
+				37A460301D325A6A00555278 /* MediaItem.swift in Sources */,
+				37A4603D1D32789D00555278 /* RequestManager.swift in Sources */,
+				37A4603F1D3295BC00555278 /* GalleryViewController.swift in Sources */,
+				37A460201D3252C100555278 /* SearchViewController.swift in Sources */,
 				37A4601E1D3252C100555278 /* AppDelegate.swift in Sources */,
+				37A4606B1D329F8D00555278 /* UIImageView+ImageLoading.swift in Sources */,
+				37A4606F1D32BE2100555278 /* Utilites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,10 +323,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InstaGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.vasyura.ru.InstaGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -250,10 +338,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InstaGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.vasyura.ru.InstaGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

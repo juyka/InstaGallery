@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let url = "https://api.instagram.com/oauth/authorize/?client_id=c4f9de4ec589414c8eefaec79cba0e9d&redirect_uri=REDIRECT-URI&response_type=token"
+        
         return true
     }
 
